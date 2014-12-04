@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2014-12-04T16:52:18+08:00</updated>
+  <updated>2014-12-04T17:02:53+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -20,8 +20,16 @@
     <id>http://renzcarlocabs.github.io/blog/2014/12/04/recreation</id>
     <content type="html"><![CDATA[<h3>Started from scratch</h3>
 
-<p>When I started having my training, I was asked to recreate a website just by looking from the screenshots provided. Have a look for yourself.
-<img src="http://renzcarlocabs.github.io/images/r1.png" alt="ScreenShot 1" /></p>
+<p>When I started having my training, I was asked to recreate a website just by looking from the screenshots provided. Below are the screenshots provided to me. Have a look for yourself.
+<img src="http://renzcarlocabs.github.io/images/r1.png" alt="ScreenShot 1" />
+<img src="http://renzcarlocabs.github.io/images/r2.png" alt="ScreenShot 1" />
+<img src="http://renzcarlocabs.github.io/images/r3.png" alt="ScreenShot 1" /></p>
+
+<p>And here are the screenshots when I tried to replicate it.
+<img src="http://renzcarlocabs.github.io/images/dup1.png" alt="Recreate 1" />
+<img src="http://renzcarlocabs.github.io/images/dup2.png" alt="Recreate 2" /></p>
+
+<p>To be quite honest, the design or the layout of the page, the alignment of certain elements, images and text took more time that when I was coding for the slider. I never was really design oriented hahaha! So anyway as a part of this blog I will also show how I made the slider work.</p>
 ]]></content>
   </entry>
   
