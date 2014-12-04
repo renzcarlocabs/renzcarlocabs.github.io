@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2014-12-04T16:42:07+08:00</updated>
+  <updated>2014-12-04T16:52:18+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -18,9 +18,10 @@
     <link href="http://renzcarlocabs.github.io/blog/2014/12/04/recreation/"/>
     <updated>2014-12-04T09:15:01+08:00</updated>
     <id>http://renzcarlocabs.github.io/blog/2014/12/04/recreation</id>
-    <content type="html"><![CDATA[<h3>Start from scratch</h3>
+    <content type="html"><![CDATA[<h3>Started from scratch</h3>
 
-<p>When I started having my training, I was asked to recreate a website just by looking from the screenshots provided. Have a look for yourself.</p>
+<p>When I started having my training, I was asked to recreate a website just by looking from the screenshots provided. Have a look for yourself.
+<img src="http://renzcarlocabs.github.io/images/r1.png" alt="ScreenShot 1" /></p>
 ]]></content>
   </entry>
   
