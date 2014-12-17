@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2014-12-18T04:20:42+08:00</updated>
+  <updated>2014-12-18T04:22:19+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -24,11 +24,9 @@
 
 <h3>What is the difference between the two?</h3>
 
-<p>Although at first sight, we may think that they are both entirely different languages or scripts used to run many applications. But then again we should think twice. Javascript is used for interface interactions, game development, web applications and so much more. It makes the user-computer interaction more lively and enjoying. Now imagine Javascript and I mean all better functions of it being compiled into one library that you can use for much FASTER browser-rendering. That is what JQUERY is about. The only difference between the two is that JQUERY is a compiled library of javascript codes which makes coding much easier.</p>
+<p>Although at first sight, we may think that they are both entirely different languages or scripts used to run many applications. But then again we should think twice. Javascript is used for interface interactions, game development, web applications and so much more. It makes the user-computer interaction more lively and enjoying. Now imagine Javascript and I mean all better functions of it being compiled into one library that you can use for much FASTER browser-rendering. That is what JQUERY is about. The only difference between the two is that JQUERY is a compiled library of javascript codes which makes coding much easier. Here is an example of a Javascript code:</p>
 
-<p>Here is an example of a Javascript code:
-<img style = "float: center;">
-<img src="http://renzcarlocabs.github.io/images/javascript.png" alt="Javascript" /></p>
+<p><img src="http://renzcarlocabs.github.io/images/javascript.png" alt="Javascript" /></p>
 
 <p>And here is an example of a JQuery code:
 <img src="http://renzcarlocabs.github.io/images/jquery.png" alt="JQuery" /></p>
