@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2014-12-18T03:46:47+08:00</updated>
+  <updated>2014-12-18T04:06:44+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -18,9 +18,13 @@
     <link href="http://renzcarlocabs.github.io/blog/2014/12/17/jquery/"/>
     <updated>2014-12-17T09:03:19+08:00</updated>
     <id>http://renzcarlocabs.github.io/blog/2014/12/17/jquery</id>
-    <content type="html"><![CDATA[<h3>Difference?</h3>
+    <content type="html"><![CDATA[<h3>FAQ&rsquo;s</h3>
 
-<p>What is Javascript? JQUERY? And what is the difference between the two?</p>
+<p>What is Javascript? JQUERY? And what is the difference between the two? Are there any instances where one is better than the other? These are some of the questions I have asked myself when I was implementing JQUERY to my webpage. Although I have some background in Javascript, the word JQUERY has struck my mind and I was left thinking &ldquo;Just what the heck am I supposed to do with this?&rdquo;. And doing the slider has really answered most of my questions. But first&hellip;</p>
+
+<h3>What is the difference between the two?</h3>
+
+<p>Although at first sight, we may think that they are both entirely different languages or scripts used to run many applications. But then again we should think twice. Javascript is used for interface interactions, game development, web applications and so much more. It makes the user-computer interaction more lively and enjoying. Now imagine Javascript and I mean all better functions of it being compiled into one library that you can use for much FASTER browser-rendering. That is what JQUERY is about. The only difference between the two is that JQUERY is a compiled library of javascript codes which makes coding much easier.</p>
 ]]></content>
   </entry>
   
