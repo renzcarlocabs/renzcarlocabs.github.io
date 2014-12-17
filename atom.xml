@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2014-12-18T00:43:00+08:00</updated>
+  <updated>2014-12-18T03:46:47+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -14,11 +14,13 @@
 
   
   <entry>
-    <title type="html"><![CDATA[JQUERY]]></title>
+    <title type="html"><![CDATA[JQUERY vs Javascript]]></title>
     <link href="http://renzcarlocabs.github.io/blog/2014/12/17/jquery/"/>
     <updated>2014-12-17T09:03:19+08:00</updated>
     <id>http://renzcarlocabs.github.io/blog/2014/12/17/jquery</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<h3>Difference?</h3>
+
+<p>What is Javascript? JQUERY? And what is the difference between the two?</p>
 ]]></content>
   </entry>
   
