@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[RC Blogs]]></title>
+  <title><![CDATA[RC Blogsssssssssssssssssssss]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2014-12-10T11:10:02+08:00</updated>
+  <updated>2014-12-18T00:42:00+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[JQUERY]]></title>
+    <link href="http://renzcarlocabs.github.io/blog/2014/12/17/jquery/"/>
+    <updated>2014-12-17T09:03:19+08:00</updated>
+    <id>http://renzcarlocabs.github.io/blog/2014/12/17/jquery</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Recreation]]></title>
