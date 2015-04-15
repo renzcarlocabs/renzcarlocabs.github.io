@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2015-04-15T13:04:50+08:00</updated>
+  <updated>2015-04-15T13:28:05+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -23,11 +23,13 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Amplify UI]]></title>
+    <title type="html"><![CDATA[Amplify UI Activity]]></title>
     <link href="http://renzcarlocabs.github.io/blog/2015/01/11/amplify/"/>
     <updated>2015-01-11T12:21:56+08:00</updated>
     <id>http://renzcarlocabs.github.io/blog/2015/01/11/amplify</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<h2>Overriding Elements</h2>
+
+<p>In the activity given to me, there are elements from the Amplify UI that I was supposed to recreate, Amplify UI uses bootstrap elements such as buttons and navigation bars. My job was to override the css elements so that they will look like the screenshots provided to me. The basic rule of overriding is to make sure that the <strong>CSS Stylesheet</strong> of the override elements should be placed last so that the given values would replace the previous style.</p>
 ]]></content>
   </entry>
   
