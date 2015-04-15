@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2015-04-15T09:50:27+08:00</updated>
+  <updated>2015-04-15T09:51:25+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -54,8 +54,9 @@
 <p>The first step is creating the container for our slider.
 <img src="http://renzcarlocabs.github.io/images/s.png" alt="Slider" /></p>
 
-<p>Next we will be configuring the css so that the other images will remain hidden unless the script shows it.
-<img src="http://renzcarlocabs.github.io/images/s2.png" alt="Slider" /></p>
+<p>Next we will be configuring the css so that the other images will remain hidden unless the script shows it.</p>
+
+<p><img src="http://renzcarlocabs.github.io/images/s2.png" alt="Slider" /></p>
 ]]></content>
   </entry>
   
