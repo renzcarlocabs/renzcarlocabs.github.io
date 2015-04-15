@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2015-04-15T09:10:02+08:00</updated>
+  <updated>2015-04-15T09:39:59+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -51,7 +51,8 @@
 
 <h2>First Step</h2>
 
-<p>The first step is creating the container for our slider.</p>
+<p>The first step is creating the container for our slider.
+<img src="http://renzcarlocabs.github.io/images/javascript.png" alt="Javascript" /></p>
 ]]></content>
   </entry>
   
