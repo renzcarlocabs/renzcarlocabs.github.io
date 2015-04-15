@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2015-04-15T12:50:12+08:00</updated>
+  <updated>2015-04-15T12:51:02+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -39,8 +39,8 @@
     <content type="html"><![CDATA[<h2>What is Wordpress?</h2>
 
 <p>Wordpress is an application or a <strong>Content Management System</strong> that uses <strong>PHP</strong> and <strong>MySQL</strong>. It is a very useful tool for web development, you can install plugins, themes, just about anything that is related to Web Development. All you need to do is download the wordpress software <a href="https://wordpress.org/">here</a>, extract the contents into your local machine, then load it in the browser. It should lead you to the configuration page, it should look like this:
-<a href="http://renzcarlocabs.github.io/images/w.png">Javascript</a>
-<a href="http://renzcarlocabs.github.io/images/w2.png">Javascript</a></p>
+<img src="http://renzcarlocabs.github.io/images/w.png" alt="Javascript" />
+<img src="http://renzcarlocabs.github.io/images/w2.png" alt="Javascript" /></p>
 ]]></content>
   </entry>
   
