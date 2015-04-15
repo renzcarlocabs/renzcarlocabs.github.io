@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2015-04-15T10:38:35+08:00</updated>
+  <updated>2015-04-15T11:52:43+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -36,7 +36,9 @@
     <link href="http://renzcarlocabs.github.io/blog/2015/01/07/wordpress/"/>
     <updated>2015-01-07T18:08:33+08:00</updated>
     <id>http://renzcarlocabs.github.io/blog/2015/01/07/wordpress</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<h2>What is Wordpress?</h2>
+
+<p>Wordpress is an application or a <strong>Content Management System</strong> that uses <strong>PHP</strong> and <strong>MySQL</strong>. It is a very useful tool for web development, you can install plugins, themes, just about anything that is related to Web Development. All you need to do is download the wordpress software <a href="https://wordpress.org/">here</a> and you&rsquo;re good to go.</p>
 ]]></content>
   </entry>
   
