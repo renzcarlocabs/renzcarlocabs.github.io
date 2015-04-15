@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2015-04-15T08:52:07+08:00</updated>
+  <updated>2015-04-15T08:57:38+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Amplify]]></title>
+    <link href="http://renzcarlocabs.github.io/blog/2015/02/11/amplify/"/>
+    <updated>2015-02-11T12:21:56+08:00</updated>
+    <id>http://renzcarlocabs.github.io/blog/2015/02/11/amplify</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firebase]]></title>
+    <link href="http://renzcarlocabs.github.io/blog/2015/01/23/firebase/"/>
+    <updated>2015-01-23T03:55:08+08:00</updated>
+    <id>http://renzcarlocabs.github.io/blog/2015/01/23/firebase</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Wordpress]]></title>
@@ -55,7 +73,7 @@
 <p>And here is an example of a JQuery code:
 <img src="http://renzcarlocabs.github.io/images/jquery.png" alt="JQuery" /></p>
 
-<p>Notice the function of JQuery? If not then I&rsquo;ll tell. JQuery can actually call names, not names to bully, but names of elements present in the document. This is really effective when it comes to classes, since sometimes you will be reffering to a particular element but all elements will be affected, this is where JQuery comes in. You can specifically call functions depending on their names or class or id names. Pretty neat huh?</p>
+<p>Notice the function of JQuery? If not then I&rsquo;ll tell. JQuery can actually call names of elements present in the document. This is really effective when it comes to classes and ids, since sometimes you will be reffering to a particular element but all elements will be affected, this is where JQuery comes in. You can specifically call functions depending on their names or class or id names. Pretty neat huh?</p>
 ]]></content>
   </entry>
   
