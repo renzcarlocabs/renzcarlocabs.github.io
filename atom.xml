@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2015-05-06T14:17:05+08:00</updated>
+  <updated>2015-05-06T15:03:34+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -45,9 +45,9 @@
 <p>There are 4 ways of saving data inside firebase:</p>
 
 <ol class = "list">
-    <li>push</li>
-    <li>set</li>
-    <li>update</li>
+    <li>push()</li>
+    <li>set()</li>
+    <li>update()</li>
     <li>transaction()</li>
 </ol>
 
