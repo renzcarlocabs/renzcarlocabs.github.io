@@ -90,6 +90,19 @@
 
 <p>Firebase is a very useful tool/backend service for your static site. It mainly uses JSON Data, Javascript and a little source code from their script and you are ready to go!</p>
 
+<h2>Using Firebase</h2>
+
+<p class="text">
+To use firebase, you must declare a reference to your own firebase datastore. Ex:
+<div class="description">
+        <div class="block-info">Code</div>
+            var ref = new Firebase(&#8220;https://yourfirebaseio.com/&#8221;);
+        </div>
+</p>
+
+
+<h2>Saving Data</h2>
+
 <p>There are 4 ways of saving data inside firebase:</p>
 
 <ol class = "list">
@@ -118,6 +131,25 @@ This is used to __write__ or __replace__ the data to a defined constant path. Th
 
 <p class="text">
 This will update the data of a key inside firebase without replacing any other data. After you have updated the data you will see that all other data other than the workstatus which we updated will remain unchanged.
+</p>
+
+
+<h2>Retrieving Data</h2>
+
+<p>There are 4 ways of retrieving data inside firebase:</p>
+
+<ol class = "list">
+    <li>value</li>
+    <li>child_added</li>
+    <li>child_changed</li>
+    <li>child_removed</li>
+</ol>
+
+
+<h3>Value</h3>
+
+<p class="text">
+    Value returns
 </p>
 
 </div>
