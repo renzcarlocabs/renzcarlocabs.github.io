@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2015-04-15T13:28:05+08:00</updated>
+  <updated>2015-05-06T13:20:56+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Firebase]]></title>
-    <link href="http://renzcarlocabs.github.io/blog/2015/01/23/firebase/"/>
-    <updated>2015-01-23T15:55:08+08:00</updated>
-    <id>http://renzcarlocabs.github.io/blog/2015/01/23/firebase</id>
+    <link href="http://renzcarlocabs.github.io/blog/2015/05/06/firebase/"/>
+    <updated>2015-05-06T11:24:08+08:00</updated>
+    <id>http://renzcarlocabs.github.io/blog/2015/05/06/firebase</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
