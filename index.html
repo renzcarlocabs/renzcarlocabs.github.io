@@ -150,7 +150,7 @@
 
 <h2>What is Firebase?</h2>
 
-<p>Firebase is a very useful tool/backend service for your static site. It mainly uses javascript and a little source code from their script and you are ready to go!</p>
+<p>Firebase is a very useful tool/backend service for your static site. It mainly uses JSON Data, Javascript and a little source code from their script and you are ready to go!</p>
 
 <p>There are 4 ways of saving data inside firebase:</p>
 
@@ -161,6 +161,34 @@
     <li>transaction()</li>
 </ol>
 
+
+<h3>push()</h3>
+
+<p>This will make Firebase generate a Unique ID everytime you use it. For example, we will save the JSON Data below:</p>
+
+<p>{&ldquo;Aaron&rdquo;:{&ldquo;id&rdquo;:&ldquo;1&rdquo;,&ldquo;status&rdquo;: &ldquo;Present&rdquo;, &ldquo;workstatus&rdquo;: &ldquo;Done&rdquo;}}</p>
+
+<p>to the <strong>employees</strong> child of our firebase, the syntax then would be:</p>
+
+<p>yourfirebaseio.com/employees/UNIQUEID/Aaron</p>
+
+<h3>set()</h3>
+
+<p>This is used to <strong>write</strong> or <strong>replace</strong> the data to a defined constant path. For example we will set the JSON Data below:</p>
+
+<p>{&ldquo;Aaron&rdquo;:{&ldquo;id&rdquo;:&ldquo;1&rdquo;,&ldquo;status&rdquo;: &ldquo;Present&rdquo;, &ldquo;workstatus&rdquo;: &ldquo;Done&rdquo;}}</p>
+
+<p>again to the <strong>employees</strong> child of our firebase, the syntax would be:</p>
+
+<p>yourfirebaseio.com/employees/Aaron</p>
+
+<h3>update()</h3>
+
+<p>This will update the data of a key inside firebase without replacing any other data. For example we will update the JSON data above to:</p>
+
+<p>{&ldquo;Aaron&rdquo;:{&ldquo;id&rdquo;:&ldquo;1&rdquo;,&ldquo;status&rdquo;: &ldquo;Present&rdquo;, &ldquo;workstatus&rdquo;: &ldquo;Not yet done&rdquo;}}</p>
+
+<p>after you have updated the data you will see that all other data other than the workstatus which we updated will remain unchanged.</p>
 </div>
   
   
