@@ -102,31 +102,40 @@
 
 <h3>push()</h3>
 
-<p>This will make Firebase generate a Unique ID everytime you use it. For example, we will save the JSON Data below:</p>
+<p class="list">
+This will make Firebase generate a Unique ID everytime you use it. For example, we will save the JSON Data below:
 
-<p>{&ldquo;Aaron&rdquo;:{&ldquo;id&rdquo;:&ldquo;1&rdquo;,&ldquo;status&rdquo;: &ldquo;Present&rdquo;, &ldquo;workstatus&rdquo;: &ldquo;Done&rdquo;}}</p>
+{&#8220;Aaron&#8221;:{&#8220;id&#8221;:&#8221;1&#8221;,&#8221;status&#8221;: &#8220;Present&#8221;, &#8220;workstatus&#8221;: &#8220;Done&#8221;}}
 
-<p>to the <strong>employees</strong> child of our firebase, the syntax then would be:</p>
+to the __employees__ child of our firebase, the syntax then would be: 
 
-<p>yourfirebaseio.com/employees/UNIQUEID/Aaron</p>
+yourfirebaseio.com/employees/UNIQUEID/Aaron
+</p>
+
 
 <h3>set()</h3>
 
-<p>This is used to <strong>write</strong> or <strong>replace</strong> the data to a defined constant path. For example we will set the JSON Data below:</p>
+<p class="list">
+This is used to __write__ or __replace__ the data to a defined constant path. For example we will set the JSON Data below:
 
-<p>{&ldquo;Aaron&rdquo;:{&ldquo;id&rdquo;:&ldquo;1&rdquo;,&ldquo;status&rdquo;: &ldquo;Present&rdquo;, &ldquo;workstatus&rdquo;: &ldquo;Done&rdquo;}}</p>
+{&#8220;Aaron&#8221;:{&#8220;id&#8221;:&#8221;1&#8221;,&#8221;status&#8221;: &#8220;Present&#8221;, &#8220;workstatus&#8221;: &#8220;Done&#8221;}}
 
-<p>again to the <strong>employees</strong> child of our firebase, the syntax would be:</p>
+again to the __employees__ child of our firebase, the syntax would be:
 
-<p>yourfirebaseio.com/employees/Aaron</p>
+yourfirebaseio.com/employees/Aaron
+</p>
+
 
 <h3>update()</h3>
 
-<p>This will update the data of a key inside firebase without replacing any other data. For example we will update the JSON data above to:</p>
+<p class = "list">
+This will update the data of a key inside firebase without replacing any other data. For example we will update the JSON data above to:
 
-<p>{&ldquo;Aaron&rdquo;:{&ldquo;id&rdquo;:&ldquo;1&rdquo;,&ldquo;status&rdquo;: &ldquo;Present&rdquo;, &ldquo;workstatus&rdquo;: &ldquo;Not yet done&rdquo;}}</p>
+{&#8220;Aaron&#8221;:{&#8220;id&#8221;:&#8221;1&#8221;,&#8221;status&#8221;: &#8220;Present&#8221;, &#8220;workstatus&#8221;: &#8220;Not yet done&#8221;}}
 
-<p>after you have updated the data you will see that all other data other than the workstatus which we updated will remain unchanged.</p>
+after you have updated the data you will see that all other data other than the workstatus which we updated will remain unchanged.
+</p>
+
 </div>
 
 
