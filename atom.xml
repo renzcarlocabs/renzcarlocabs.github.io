@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2015-05-06T15:36:38+08:00</updated>
+  <updated>2015-05-06T16:40:07+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -54,31 +54,24 @@
 
 <h3>push()</h3>
 
-<p>This will make Firebase generate a Unique ID everytime you use it. For example, we will save the JSON Data below:</p>
+<p class="text">
+This will make Firebase generate a Unique ID everytime you use it. The data would be put into firebase would be: <p class = "italic">https://yourfirebaseio.com/UNIQUE_ID/child/child_data</p>
+</p>
 
-<p>{&ldquo;Aaron&rdquo;:{&ldquo;id&rdquo;:&ldquo;1&rdquo;,&ldquo;status&rdquo;: &ldquo;Present&rdquo;, &ldquo;workstatus&rdquo;: &ldquo;Done&rdquo;}}</p>
-
-<p>to the <strong>employees</strong> child of our firebase, the syntax then would be:</p>
-
-<p>yourfirebaseio.com/employees/UNIQUEID/Aaron</p>
 
 <h3>set()</h3>
 
-<p>This is used to <strong>write</strong> or <strong>replace</strong> the data to a defined constant path. For example we will set the JSON Data below:</p>
+<p class="text">
+This is used to __write__ or __replace__ the data to a defined constant path. The data that would be put into firebase would be: <p class="italic">https://yourfirebaseio.com/specific_child_path/child_data</p>
+</p>
 
-<p>{&ldquo;Aaron&rdquo;:{&ldquo;id&rdquo;:&ldquo;1&rdquo;,&ldquo;status&rdquo;: &ldquo;Present&rdquo;, &ldquo;workstatus&rdquo;: &ldquo;Done&rdquo;}}</p>
-
-<p>again to the <strong>employees</strong> child of our firebase, the syntax would be:</p>
-
-<p>yourfirebaseio.com/employees/Aaron</p>
 
 <h3>update()</h3>
 
-<p>This will update the data of a key inside firebase without replacing any other data. For example we will update the JSON data above to:</p>
+<p class="text">
+This will update the data of a key inside firebase without replacing any other data. After you have updated the data you will see that all other data other than the workstatus which we updated will remain unchanged.
+</p>
 
-<p>{&ldquo;Aaron&rdquo;:{&ldquo;id&rdquo;:&ldquo;1&rdquo;,&ldquo;status&rdquo;: &ldquo;Present&rdquo;, &ldquo;workstatus&rdquo;: &ldquo;Not yet done&rdquo;}}</p>
-
-<p>after you have updated the data you will see that all other data other than the workstatus which we updated will remain unchanged.</p>
 ]]></content>
   </entry>
   
