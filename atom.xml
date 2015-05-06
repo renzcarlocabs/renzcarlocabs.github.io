@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2015-05-06T13:57:33+08:00</updated>
+  <updated>2015-05-06T14:01:51+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -42,11 +42,15 @@
 
 <p>Firebase is a very useful tool/backend service for your static site. It mainly uses javascript and a little source code from their script and you are ready to go!</p>
 
-<p>There are 4 ways of saving data inside firebase:
-1. set
-2. push
-3. update
-4. transaction</p>
+<p>There are 4 ways of saving data inside firebase:</p>
+
+<ol>
+    <li>push</li>
+    <li>set</li>
+    <li>update</li>
+    <li>transaction()</li>
+</ol>
+
 ]]></content>
   </entry>
   
