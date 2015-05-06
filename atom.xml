@@ -4,7 +4,7 @@
   <title><![CDATA[RC Blogs]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2015-05-06T16:40:07+08:00</updated>
+  <updated>2015-05-06T16:41:59+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -55,14 +55,14 @@
 <h3>push()</h3>
 
 <p class="text">
-This will make Firebase generate a Unique ID everytime you use it. The data would be put into firebase would be: <p class = "italic">https://yourfirebaseio.com/UNIQUE_ID/child/child_data</p>
+This will make Firebase generate a Unique ID everytime you use it. The data would be put into firebase would be: <p class = "sample">https://yourfirebaseio.com/UNIQUE_ID/child/child_data</p>
 </p>
 
 
 <h3>set()</h3>
 
 <p class="text">
-This is used to __write__ or __replace__ the data to a defined constant path. The data that would be put into firebase would be: <p class="italic">https://yourfirebaseio.com/specific_child_path/child_data</p>
+This is used to __write__ or __replace__ the data to a defined constant path. The data that would be put into firebase would be: <p class="sample">https://yourfirebaseio.com/specific_child_path/child_data</p>
 </p>
 
 
