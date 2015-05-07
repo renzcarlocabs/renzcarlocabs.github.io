@@ -9,8 +9,7 @@
   <meta name="author" content="Renz">
 
   
-  <meta name="description" content=" I was asked to recreate the FM Roster App which before used Socket.io and transfer the app to Firebase.
-">
+  <meta name="description" content="I was asked to recreate the FM Roster App which before used Socket.io and transfer the app to Firebase. Here is the outcome: While I was doing this &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -90,7 +89,92 @@
 
   <div class="entry-content"><p><img src="/images/rosterapp.png" class="coverImage"></p>
 
-<p>I was asked to recreate the FM Roster App which before used <strong>Socket.io</strong> and transfer the app to <strong>Firebase</strong>.</p>
+<p>I was asked to recreate the FM Roster App which before used <strong>Socket.io</strong> and transfer the app to <strong>Firebase</strong>. Here is the outcome:
+<img src="/images/rosterapp2.png" class="coverImage">
+While I was doing this project I was assuming that the application tracks whether a staff is done in doing his/her stand-up(Recap of activities/projetcs done), and whether a staff is present or not.</p>
+
+<p>Here are my observations from the original app which I applied to the new app:</p>
+
+<ol class="list">
+    <li><img src="/images/fm1.png" class = "listImage"></li>
+    <li><img src="/images/fm2.png" class = "listImage"></li>
+    <li><img src="/images/fm3.png" class = "listImage"></li>
+    <li><img src="/images/fm4.png" class = "listImage"></li>
+</ol>
+
+
+<p>I have thought throughout the creation process of the script to keep it as realtime as possible. Everytime an employee is added, removed or clicked data would be realtime.</p>
+
+<p>This is the function for the first time the page/site is loaded.</p>
+
+<pre>
+    function getData(allData){
+        idNum = allData.child("id").val();
+        eName = allData.child("name").val();
+        eStatus = allData.child("status").val();
+        eWorkStatus = allData.child("workstatus").val();
+        appendEmployee(eWorkStatus);
+    }
+
+    function appendEmployee(eWorkStatus){
+
+        if(eWorkStatus == "Done"){
+          tmplTest = tmpl.replace(/{employeeId}/g, idNum)
+          .replace(/{employeeName}/g, eName)
+          .replace(/{btnStatus}/g, "btn-success")
+          .replace(/{glyphiconType}/g, "glyphicon-ok-circle")
+          .replace(/{employeeName}/g, eName);
+          $('#emp').append(tmplTest);
+        }
+          
+        if(eWorkStatus == "Ongoing"){
+          tmplTest = tmpl.replace(/{employeeId}/g, idNum)
+          .replace(/{employeeName}/g, eName)
+          .replace(/{btnStatus}/g, "btn-success")
+          .replace(/{glyphiconType}/g, "glyphicon-refresh spin")
+          .replace(/{employeeName}/g, eName);
+          $('#emp').append(tmplTest);
+          }
+          
+        if(eWorkStatus == "Not yet done" && eStatus == "Not Present"){
+            tmplTest = tmpl.replace(/{employeeId}/g, idNum)
+            .replace(/{employeeName}/g, eName)
+            .replace(/{btnStatus}/g, "btn-warning")
+            .replace(/{glyphiconType}/g, "glyphicon-remove-circle")
+            .replace(/{employeeName}/g, eName);
+            $('#emp').append(tmplTest);
+        }
+          
+        if(eWorkStatus == "Not yet done" && eStatus == "Present"){
+            tmplTest = tmpl.replace(/{employeeId}/g, idNum)
+            .replace(/{employeeName}/g, eName)
+            .replace(/{btnStatus}/g, "btn-default")
+            .replace(/{glyphiconType}/g, "glyphicon-record")
+            .replace(/{employeeName}/g, eName);
+            $('#emp').append(tmplTest);
+        }
+
+        $buttons = $('#emp button');
+        $buttons.mousedown(function(e){ 
+          if( e.button == 2 ){
+            $this = $(this);
+            contextConditions($this);
+
+            $('#eName').attr('value', $(this).attr('value'));
+            $('#eName').attr('class', $(this).attr('id'));
+            
+            
+        $contextMenu.css( {position:"absolute", top:e.pageY, left: e.pageX, display: "block"});
+        e.preventDefault(); 
+          }
+            return true; 
+          }).on('contextmenu', function(){
+          return false;
+        });
+    
+  } 
+</pre>
+
 </div>
   
   
@@ -121,7 +205,7 @@
 
   <div class="entry-content"><p><img src="/images/amcharts.png" class = "coverImage"></p>
 
-<p>This blog was supposed to be months ago, but better than never. I was asked to create a simple program with firebase, to create a chart from <a href = "http://www.amcharts.com/" target = "_blank">Amcharts</a>, both Pie chart and Stacked Bar chart that fetches its data from firebase.</p>
+<p>This blog was supposed to be months ago, but better late than never. I was asked to create a simple program with firebase, to create a chart from <a href = "http://www.amcharts.com/" target = "_blank">Amcharts</a>, both Pie chart and Stacked Bar chart that fetches its data from firebase.</p>
 
 <p>The application should/should have:</p>
 
