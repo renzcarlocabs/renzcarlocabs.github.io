@@ -4,7 +4,7 @@
   <title><![CDATA[Renz Carlo Cabual]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2015-05-07T16:54:38+08:00</updated>
+  <updated>2015-05-07T17:51:29+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[FM Roster App]]></title>
+    <title type="html"><![CDATA[FM Roster App Documentation]]></title>
     <link href="http://renzcarlocabs.github.io/blog/2015/05/07/fm-roster-app/"/>
     <updated>2015-05-07T10:59:38+08:00</updated>
     <id>http://renzcarlocabs.github.io/blog/2015/05/07/fm-roster-app</id>
@@ -52,7 +52,7 @@ While I was doing this project I was assuming that the application tracks whethe
     , items = 0
     , glyphRefresh = $('.glyphicon.glyphicon-refresh.spin')
     , fireBaseAllRef = "https://fmroster.firebaseio.com/employees/"
-    , tmpl = "< div class = 'col-xs-6 col-md-4 col-lg-3'><button id = '{employeeId}' value = '{employeeName}' class = 'btn btn-block btn-lg {btnStatus}'><i class = 'glyphicon {glyphiconType}'></i><span class = 'name'>{employeeName}</span></button>< /div>"
+    , tmpl = "< div class = 'col-xs-6 col-md-4 col-lg-3'>< button id = '{employeeId}' value = '{employeeName}' class = 'btn btn-block btn-lg {btnStatus}'><i class = 'glyphicon {glyphiconType}'></i><span class = 'name'>{employeeName}</span></button>< /div>"
     , ref = new Firebase(fireBaseAllRef)
     , $contextMenu = $('.cmenu');
 
@@ -128,7 +128,33 @@ While I was doing this project I was assuming that the application tracks whethe
 </pre>
 
 
-<p>As you can see I have used the <strong>child_added</strong> function on the very first load of the page, then passed the <strong>allData</strong> callback to the <strong>function getData()</strong>. The function getData processes the child data of the callback <strong>allData</strong>, then by putting the callback data into a variable, I passed it to another function - <strong>appendEmployee()</strong> which then applies the right button status depending on the conditions I have mentioned in number four(4) of my observations.</p>
+<p>As you can see I have used the <strong>child_added</strong> function on the very first load of the page, then passed the <strong>allData</strong> callback to the <strong>function getData()</strong>. The function getData processes the child data of the callback <strong>allData</strong>, then by putting the callback data into a variable, I passed it to another function - <strong>appendEmployee()</strong> which then applies the right button status depending on the conditions I have mentioned in number four(4) of my observations. The <strong>appendEmployee</strong> function also shows the context menu when right clicked.</p>
+
+<p>Here is the code for when you click a button:</p>
+
+<pre>
+    function changer() {
+      spinName = $('#emp').find($('.glyphicon-refresh')).parent().attr('value');
+      spinID = $('#emp').find($('.glyphicon-refresh')).parent().attr('id');
+      if(spinName != "" && spinName != null){
+          fireBaseRef2 = new Firebase('https://fmroster.firebaseio.com/employees/' + spinName);
+          fireBaseRef2.update({workstatus: "Done"});
+          }
+
+    }
+  
+    $('body').on('click','.btn-default',function(){
+        changer();
+        idNum = $(this).attr("id");
+        eName = $(this).attr("value");
+        fireBaseRef2 = new Firebase(fireBaseAllRef + eName);
+        fireBaseRef2.set({ name: eName, status: "Present", id: idNum, workstatus: "Ongoing"});
+      });
+
+</pre>
+
+
+<p>Since the buttons that are appended on the page are dynamic, we have to select it with the JQuery function <strong>.on(&lsquo;click&rsquo;)</strong> as you can see above, also <strong>btn_default</strong> is the class we used because all buttons with the class btn-default are categorized as not yet done, all employees done with the standup can no longer be clicked and apply a work status of <strong>Ongoing</strong>. The function <strong>changer</strong> finds all buttons with the class <strong>glyphicon-refresh</strong> and replaces it with <strong>glyphicon-ok-circle</strong>.</p>
 ]]></content>
   </entry>
   
