@@ -4,7 +4,7 @@
   <title><![CDATA[Renz Carlo Cabual]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2015-05-07T10:56:49+08:00</updated>
+  <updated>2015-05-07T11:30:10+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -14,11 +14,20 @@
 
   
   <entry>
+    <title type="html"><![CDATA[FM Roster App]]></title>
+    <link href="http://renzcarlocabs.github.io/blog/2015/05/07/fm-roster-app/"/>
+    <updated>2015-05-07T10:59:38+08:00</updated>
+    <id>http://renzcarlocabs.github.io/blog/2015/05/07/fm-roster-app</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Firebase and Amcharts]]></title>
     <link href="http://renzcarlocabs.github.io/blog/2015/05/06/firebase-and-amcharts/"/>
     <updated>2015-05-06T13:56:13+08:00</updated>
     <id>http://renzcarlocabs.github.io/blog/2015/05/06/firebase-and-amcharts</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p><img src="http://renzcarlocabs.github.io/images/amcharts.png" class = "coverImage"></p>
 ]]></content>
   </entry>
   
@@ -27,7 +36,9 @@
     <link href="http://renzcarlocabs.github.io/blog/2015/05/06/at-media-rule/"/>
     <updated>2015-05-06T13:22:58+08:00</updated>
     <id>http://renzcarlocabs.github.io/blog/2015/05/06/at-media-rule</id>
-    <content type="html"><![CDATA[<p>Media rules or media queries are used for the <strong>responsiveness</strong> of a website. When used together with <a href="http://getbootstrap.com/css/" target = "_blank">Bootstrap</a> it becomes a much powerful tool used in web making.</p>
+    <content type="html"><![CDATA[<p><img src = "http://renzcarlocabs.github.io/images/css-media-queries.jpg" class="coverImage"></p>
+
+<p>Media rules or media queries are used for the <strong>responsiveness</strong> of a website. When used together with <a href="http://getbootstrap.com/css/" target = "_blank">Bootstrap</a> it becomes a much powerful tool used in web making.</p>
 
 <h3>How to use?</h3>
 
@@ -60,7 +71,7 @@
     <link href="http://renzcarlocabs.github.io/blog/2015/05/06/firebase/"/>
     <updated>2015-05-06T11:24:08+08:00</updated>
     <id>http://renzcarlocabs.github.io/blog/2015/05/06/firebase</id>
-    <content type="html"><![CDATA[<p><img src="http://renzcarlocabs.github.io/images/Firebase.png" alt="w1" /></p>
+    <content type="html"><![CDATA[<p><img src = "http://renzcarlocabs.github.io/images/Firebase.png" class="coverImage"></p>
 
 <h2>What is Firebase?</h2>
 
@@ -215,10 +226,10 @@ This will update the data of a key inside firebase without replacing any other d
     <content type="html"><![CDATA[<h2>What is Wordpress?</h2>
 
 <p>Wordpress is an application or a <strong>Content Management System</strong> that uses <strong>PHP</strong> and <strong>MySQL</strong>. It is a very useful tool for web development, you can install plugins, themes, just about anything that is related to Web Development. All you need to do is download the wordpress software <a href="https://wordpress.org/">here</a>, extract the contents into your local machine, then load it in the browser. It should lead you to the configuration page, it should look like this:
-<img src="http://renzcarlocabs.github.io/images/w.png" alt="w1" />
-<img src="http://renzcarlocabs.github.io/images/w2.png" alt="w2" />
+<img src = "http://renzcarlocabs.github.io/images/w.png" class="coverImage">
+<img src = "http://renzcarlocabs.github.io/images/w2.png" class="coverImage">
 After filling up configuration settings it should lead you to the dashboard which looks like this:
-<img src="http://renzcarlocabs.github.io/images/w3.png" alt="w3" />
+<img src = "http://renzcarlocabs.github.io/images/w3.png" class="coverImage">
 Right now I am working on the <a href="http://www.favoritemedium.com/work.html">Featured Works Page</a> of the Favorite Medium Website. I am excited to do this and learn new things about wordpress.</p>
 ]]></content>
   </entry>
@@ -235,17 +246,17 @@ Right now I am working on the <a href="http://www.favoritemedium.com/work.html">
 <h2>First Step</h2>
 
 <p>The first step is creating the container for our slider.
-<img src="http://renzcarlocabs.github.io/images/s.png" alt="Slider" /></p>
+<img src = "http://renzcarlocabs.github.io/images/s.png" class="coverImage"></p>
 
 <h2>Second Step</h2>
 
 <p>Next we will be configuring the css so that the other images will remain hidden.
-<img src="http://renzcarlocabs.github.io/images/s2.png" alt="Slider" /></p>
+<img src = "http://renzcarlocabs.github.io/images/s2.png" class="coverImageH"></p>
 
 <h2>Last Step</h2>
 
 <p>Now for the JQuery code.
-<img src="http://renzcarlocabs.github.io/images/s3.png" alt="Slider" /></p>
+<img src = "http://renzcarlocabs.github.io/images/s3.png" class="coverImage"></p>
 
 <p>The <strong>animationSpeed</strong> variable refers to the speed of the transitioning between the images. You can change the variable name and value of this. As for the <strong>slideContainer</strong> variable, it refers to the container for the slider images. After all these, that&rsquo;s it! You now have a simple image slider.</p>
 ]]></content>
@@ -264,10 +275,10 @@ Right now I am working on the <a href="http://www.favoritemedium.com/work.html">
 
 <p>Although at first sight, we may think that they are both entirely different languages or scripts used to run many applications. But then again we should think twice. Javascript is used for interface interactions, game development, web applications and so much more. It makes the user-computer interaction more lively and enjoying. Now imagine Javascript and I mean all better functions of it being compiled into one library that you can use for much FASTER browser-rendering. That is what JQUERY is about. The only difference between the two is that JQUERY is a compiled library of javascript codes which makes coding much easier. Here is an example of a Javascript code:</p>
 
-<p><img src="http://renzcarlocabs.github.io/images/javascript.png" alt="Javascript" /></p>
+<p><img src = "http://renzcarlocabs.github.io/images/javascript.png" class="coverImage"></p>
 
 <p>And here is an example of a JQuery code:
-<img src="http://renzcarlocabs.github.io/images/jquery.png" alt="JQuery" /></p>
+<img src = "http://renzcarlocabs.github.io/images/jquery.png" class="coverImage"></p>
 
 <p>Notice the function of JQuery? If not then I&rsquo;ll tell. JQuery can actually call names of elements present in the document. This is really effective when it comes to classes and ids, since sometimes you will be reffering to a particular element but all elements will be affected, this is where JQuery comes in. You can specifically call functions depending on their names or class or id names. Pretty neat huh?</p>
 ]]></content>
@@ -281,13 +292,13 @@ Right now I am working on the <a href="http://www.favoritemedium.com/work.html">
     <content type="html"><![CDATA[<h3>Started from scratch</h3>
 
 <p>When I started having my training, I was asked to recreate a website just by looking from the screenshots provided. Below are the screenshots provided to me. Have a look for yourself.
-<img src="http://renzcarlocabs.github.io/images/r1.png" alt="ScreenShot 1" />
-<img src="http://renzcarlocabs.github.io/images/r2.png" alt="ScreenShot 1" />
-<img src="http://renzcarlocabs.github.io/images/r3.png" alt="ScreenShot 1" /></p>
+<img src = "http://renzcarlocabs.github.io/images/r1.png" class="coverImage">
+<img src = "http://renzcarlocabs.github.io/images/r2.png" class="coverImage">
+<img src = "http://renzcarlocabs.github.io/images/r3.png" class="coverImage"></p>
 
 <p>And here are the screenshots when I tried to replicate it.
-<img src="http://renzcarlocabs.github.io/images/dup1.png" alt="Recreate 1" />
-<img src="http://renzcarlocabs.github.io/images/dup2.png" alt="Recreate 2" /></p>
+<img src = "http://renzcarlocabs.github.io/images/dup1.png" class="coverImage">
+<img src = "http://renzcarlocabs.github.io/images/dup2.png" class="coverImage"></p>
 
 <p>To be quite honest, the design or the layout of the page, the alignment of certain elements, images and text took more time that when I was coding for the slider. I never was really design oriented hahaha! So anyway please check out my next blog, it will be about the documentation for the code of the slider. Please tune in :)</p>
 ]]></content>
