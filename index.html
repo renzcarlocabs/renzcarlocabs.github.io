@@ -108,6 +108,23 @@ While I was doing this project I was assuming that the application tracks whethe
 <p>This is the function for the first time the page/site is loaded.</p>
 
 <pre>
+
+    //Declarations
+
+  var tmplTest
+    , idNum
+    , eName
+    , eStatus
+    , eWorkStatus
+    , nextName
+    , nextId
+    , items = 0
+    , glyphRefresh = $('.glyphicon.glyphicon-refresh.spin')
+    , fireBaseAllRef = "https://fmroster.firebaseio.com/employees/"
+    , tmpl = "< div class = 'col-xs-6 col-md-4 col-lg-3'><button id = '{employeeId}' value = '{employeeName}' class = 'btn btn-block btn-lg {btnStatus}'><i class = 'glyphicon {glyphiconType}'></i><span class = 'name'>{employeeName}</span></button>< /div>"
+    , ref = new Firebase(fireBaseAllRef)
+    , $contextMenu = $('.cmenu');
+
     function getData(allData){
         idNum = allData.child("id").val();
         eName = allData.child("name").val();
@@ -173,8 +190,14 @@ While I was doing this project I was assuming that the application tracks whethe
         });
     
   } 
+
+  ref.on('child_added', function(allData){
+    getData(allData);   
+  });
 </pre>
 
+
+<p>As you can see I have used the <strong>child_added</strong> function on the very first load of the page, then passed the <strong>allData</strong> callback to the <strong>function getData()</strong>. The function getData processes the child data of the callback <strong>allData</strong>, then by putting the callback data into a variable, I passed it to another function - <strong>appendEmployee()</strong> which then applies the right button status depending on the conditions I have mentioned in number four(4) of my observations.</p>
 </div>
   
   
