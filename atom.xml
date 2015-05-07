@@ -4,7 +4,7 @@
   <title><![CDATA[Renz Carlo Cabual]]></title>
   <link href="http://renzcarlocabs.github.io/atom.xml" rel="self"/>
   <link href="http://renzcarlocabs.github.io/"/>
-  <updated>2015-05-07T09:33:17+08:00</updated>
+  <updated>2015-05-07T10:56:49+08:00</updated>
   <id>http://renzcarlocabs.github.io/</id>
   <author>
     <name><![CDATA[Renz]]></name>
@@ -23,11 +23,35 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[@Media Rule]]></title>
+    <title type="html"><![CDATA[@Media Queries]]></title>
     <link href="http://renzcarlocabs.github.io/blog/2015/05/06/at-media-rule/"/>
     <updated>2015-05-06T13:22:58+08:00</updated>
     <id>http://renzcarlocabs.github.io/blog/2015/05/06/at-media-rule</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>Media rules or media queries are used for the <strong>responsiveness</strong> of a website. When used together with <a href="http://getbootstrap.com/css/" target = "_blank">Bootstrap</a> it becomes a much powerful tool used in web making.</p>
+
+<h3>How to use?</h3>
+
+<p>First you must ensure proper rendering and touch zooming to your website. You can do that by adding the <strong>viewport meta tag</strong> to the <strong>head</strong> of the page:</p>
+
+<pre>
+    < meta name="viewport" content="width=device-width, initial-scale=1">
+</pre>
+
+
+<p>After appending the viewport tag to the head of our html page, we can now use <strong>media queries</strong> in our css stylesheet, here is a sample of a media query:</p>
+
+<pre>
+    @media screen and (max-width: 768px) {
+        body {
+            background-color: lightblue;
+        }
+    }
+</pre>
+
+
+<p>The code above will trigger once the browser or device screen&rsquo;s width becomes 768 pixels, the body will have a background color of lightblue. There are a lot of media types available and not only <strong>screen</strong>, there is also <strong>print</strong>, <strong>projection</strong>, <strong>speech</strong>, <strong>all</strong>, depending on which type of media you want to view the page with.</p>
+
+<p>I am very excited onto learning more about media queries along with bootstrap. I know that I can use these for future use, especially with projects that require page responsiveness.</p>
 ]]></content>
   </entry>
   
