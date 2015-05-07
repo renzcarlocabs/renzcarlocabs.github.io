@@ -156,12 +156,16 @@
 
 <p class="text">
 To use firebase, you must declare a reference to your own firebase datastore. Ex:
-<div class="description">
-        <div class="block-info">Code</div>
-            var ref = new Firebase(&#8220;https://yourfirebaseio.com/&#8221;);
-        </div>
+<pre>
+    var ref = new Firebase("https://yourfirebaseio.com/");
+    ref.on("value", function(snapshot){
+            console.log(snapshot.val());
+        }); 
+</pre>
 </p>
 
+
+<p><strong>ref</strong> refers to the firebase datastore you want to enter/save your data on. The <strong>snapshot</strong> refers to the data inside firebase, you can use this to call a specific data inside firebase.</p>
 
 <h2>Saving Data</h2>
 
@@ -178,14 +182,14 @@ To use firebase, you must declare a reference to your own firebase datastore. Ex
 <h3>push()</h3>
 
 <p class="text">
-This will make Firebase generate a Unique ID everytime you use it. The data would be put into firebase would be: <p class = "sample">https://yourfirebaseio.com/UNIQUE_ID/child/child_data</p>
+This will make Firebase generate a Unique ID everytime you use it. The data would be put into firebase would be: <pre>https://yourfirebaseio.com/UNIQUE_ID/child/child_data</pre>
 </p>
 
 
 <h3>set()</h3>
 
 <p class="text">
-This is used to __write__ or __replace__ the data to a defined constant path. The data that would be put into firebase would be: <p class="sample">https://yourfirebaseio.com/specific_child_path/child_data</p>
+This is used to __write__ or __replace__ the data to a defined constant path. The data that would be put into firebase would be: <pre>https://yourfirebaseio.com/specific_child_path/child_data</pre>
 </p>
 
 
@@ -208,12 +212,73 @@ This will update the data of a key inside firebase without replacing any other d
 </ol>
 
 
-<h3>Value</h3>
+<h3>value</h3>
 
-<p class="text">
-    Value returns
-</p>
+<p><strong>value</strong> returns a snapshot of the <strong>whole</strong> content inside a firebase reference once and triggers everytime the data changes. For example:</p>
 
+<pre>
+    var ref = new Firebase("https://yourfirebaseio.com/");
+    ref.on("value", function(snapshot){
+        console.log(snapshot.val());
+    });
+</pre>
+
+
+<p>The code above will display all values within the firebase datastore. If you want to show a specific child data you could use <strong>forEach</strong>:</p>
+
+<pre>
+    var ref = new Firebase("https://yourfirebaseio.com/");
+    ref.on("value", function(snapshot){
+        snapshot.forEach(function(dataSnapshot){
+            console.log(dataSnapshot.child("name_of_child").val());
+        });
+    });
+</pre>
+
+
+<p>Where <strong>name_of_child</strong> is the variable which you want to get the data from.</p>
+
+<h3>child_added</h3>
+
+<p><strong>child_added</strong> returns a list of items inside firebase, unlike <strong>value</strong> which returns the whole contents of the firebase, <strong>child_added</strong> triggers for each child existing inside it and triggers again each time a child is added.</p>
+
+<pre>
+    var ref = new Firebase("https://yourfirebaseio.com/");
+    ref.on("child_added", function(snapshot){
+        console.log(snapshot.val());
+    });
+</pre>
+
+
+<p>For example you have a total of 5 childs inside your firebase, when you use the code above and check the console of the browser, you will see an array of JSON objects which totals to 5. Depending on how many your child is. The snapshot callback contains the child added in firebase.</p>
+
+<h3>child_changed</h3>
+
+<p><strong>child_changed</strong> triggers eveytime a child inside the firebase is changed.</p>
+
+<pre>
+    var ref = new Firebase("https://yourfirebaseio.com/");
+    ref.on('child_changed', function(snapshot){
+        console.log(snapshot.val());
+    });
+</pre>
+
+
+<p><strong>child_changed</strong> is used in conjuction either with <strong>child_added</strong> or <strong>child_removed</strong> which responds or triggers when there are changes to a list of items. The snapshot callback containes the child changed inside firebase.</p>
+
+<h3>child_removed</h3>
+
+<p><strong>child_removed</strong> triggers when a child inside firebase is removed.</p>
+
+<pre>
+    var ref = new Firebase("https://yourfirebaseio.com/");
+    ref.on("child_removed", function(snapshot){
+        console.log(snaphot.val());
+    });
+</pre>
+
+
+<p>The snapshot callback contains the child removed from firebase.</p>
 </div>
   
   
